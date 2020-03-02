@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-	<title></title>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bootstrap-intégration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <style>
@@ -16,12 +17,20 @@
 			margin: 20px 40px 0px;
 		}
 
+		.navigation{
+			padding: 5px 45px;
+		}
+        
+        .paragraphe{
+        	font-size: 20px;
+        }
+
 </style>
 </head>
 <body>
 	<header>
-		  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		  <a class="navbar-brand" href="#">Project name</a>
+		<nav class="navbar navigation navbar-expand-lg navbar-dark bg-dark">
+		  <a class="navbar-brand text-muted" href="#">Project name</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -61,7 +70,7 @@
 		<div class="jumbotron">
 		    <div class="container">
 		      <h1 class="display-3">Hello, world!</h1>
-		      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+		      <p class="paragraphe">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three</br> supporting pieces of content. Use it as a starting point to create something more unique.</p>
 		      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
 		    </div>
   		</div>
@@ -87,7 +96,7 @@
 	    <hr>
   </div> 
 <footer class="container">
-  <p>&copy; Company 2013</p>
+  &copy; Company 2013
 </footer>
 </main>
 </body>
